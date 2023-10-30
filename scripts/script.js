@@ -11,7 +11,7 @@ function mostrarSaldo(){
 // Depositar dinero
 function depositarDinero(){
     const saldo = parseFloat(document.getElementById("saldo"));
-
+    
 }
 
 // Retirar dinero
@@ -23,7 +23,7 @@ function retirarDinero(){
 // Transferir dinero
 function transferirDinero(){
     const saldo = parseFloat(document.getElementById("saldo"));
-    
+
 }
 
 // Cambiar contraseña
