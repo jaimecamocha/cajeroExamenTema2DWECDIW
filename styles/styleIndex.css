@@ -14,10 +14,16 @@ body{
 }
 
 #cajero{
-    text-align: center;
-    background-color: lightskyblue;
-    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,120,121,1) 35%, rgba(0,212,255,1) 100%);
     font-family: 'Oswald';
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+#operaciones{
+    text-align: center;
+    display: block;
 }
 
 #btnInicio{
@@ -25,12 +31,17 @@ body{
     background-color: azure;
 }
 
+
 #btnMostrar, #btnDepositar, #btnRetirar, #btnTransferir, #btnCambiarContra{
     color: black;
     background-color: greenyellow;
+    display: flex;
+    align-items: center;
 }
 
 #btnCerrar {
     color: white;
     background-color: red;
+    display: flex;
+    align-items: center;
 }

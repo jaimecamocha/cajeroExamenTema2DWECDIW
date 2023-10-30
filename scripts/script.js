@@ -1,3 +1,6 @@
+// JAIME FERNÁNDEZ CALVO
+// https://github.com/jaimecamocha/cajeroExamenTema2DWECDIW.git
+
 let saldo = 1000;
 let PIN_CORRECTO = "123";
 let intentosPin = 3;
