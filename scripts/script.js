@@ -46,7 +46,7 @@ function transferirDinero(){
         mostrarSaldo();
         alert(`Se han transferido ${transfer.toFixed(2)} euros`)
     }
-}
+} 
 
 // Cambiar contraseña
 function cambiarContrasena(){
