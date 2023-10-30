@@ -10,9 +10,20 @@
     <div id="inicio">
         <h2>INICIAR SESIÓN</h2>
         <input type="number" placeholder="Introduzca su pin">
-        <button type="button" onclick="iniciarSesion()"></button>
+        <button type="button" onclick="iniciarSesion()">INICIAR SESIÓN</button>
     </div>
 
+    <div id="cajero" style="display: none;">
+        <h2>CAJERO AUTOMÁTICO</h2>
+        <p id="txtSaldo"></p>
+        <input type="number" id="inputCantidad" placeholder="Introduzca cantidad">
+        <button type="button" onclick="mostrarSaldo()">Mostrar saldo</button>
+        <button type="button" onclick="depositarDinero()">Depositar</button>
+        <button type="button" onclick="retirarDinero()">Retirar</button>
+        <button type="button" onclick="transferirDinero()">Transferir</button>
+        <button type="button" onclick="cambiarContrasena()">Cambiar contraseña</button>
+        <button type="button" onclick="cerrarSesion()">Salir</button>
+    </div>
 
     <script src="scripts/script.js"></script>
 </body>
