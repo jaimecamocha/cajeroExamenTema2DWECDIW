@@ -20,7 +20,7 @@ function depositarDinero(){
         mostrarSaldo();
         alert(`Se han depositado ${deposito.toFixed(2)} euros`);
     }
-}
+} 
 
 // Retirar dinero
 function retirarDinero(){
