@@ -10,20 +10,20 @@
 <body>
     <div id="inicio">
         <h2>INICIAR SESIÓN</h2>
-        <input type="number" placeholder="Introduzca su pin">
-        <button type="button" onclick="iniciarSesion()">INICIAR SESIÓN</button>
+        <input type="number" placeholder="Introduzca su pin" id="pinIntroducido">
+        <button type="button" onclick="iniciarSesion()" id="btnInicio">INICIAR SESIÓN</button>
     </div>
 
-    <div id="cajero" style="display: none;">
+    <div id="cajero">
         <h2>CAJERO AUTOMÁTICO</h2>
-        <p id="txtSaldo"><span id="saldo"></span></p>
+        <p id="txtsaldo">Su saldo es de: <span id="cantSaldo"></span> euros</p>
         <input type="number" id="inputCantidad" placeholder="Introduzca cantidad">
-        <button type="button" onclick="mostrarSaldo()">Mostrar saldo</button>
-        <button type="button" onclick="depositarDinero()">Depositar</button>
-        <button type="button" onclick="retirarDinero()">Retirar</button>
-        <button type="button" onclick="transferirDinero()">Transferir</button>
-        <button type="button" onclick="cambiarContrasena()">Cambiar contraseña</button>
-        <button type="button" onclick="cerrarSesion()">Salir</button>
+        <button type="button" onclick="mostrarSaldo()" id="btnMostrar">Mostrar saldo</button>
+        <button type="button" onclick="depositarDinero()" id="btnDepositar">Depositar</button>
+        <button type="button" onclick="retirarDinero()" id="btnRetirar">Retirar</button>
+        <button type="button" onclick="transferirDinero()" id="btnTransferir">Transferir</button>
+        <button type="button" onclick="cambiarContrasena()" id="btnCambiarContra">Cambiar contraseña</button>
+        <button type="button" onclick="cerrarSesion()" id="btnCerrar">Salir</button>
     </div>
 
     <script src="scripts/script.js"></script>

@@ -1,0 +1,29 @@
+body{
+    background-color: aqua;
+}
+
+#inicio{
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+#cajero{
+    text-align: center;
+    background-color: lightskyblue;
+    align-items: center;
+}
+
+#btnInicio{
+    color: black;
+    background-color: azure;
+}
+
+#btnMostrar, #btnDepositar, #btnRetirar, #btnTransferir, #btnCambiarContra{
+    color: black;
+    background-color: greenyellow;
+}
+
+#btnCerrar {
+    color: white;
+    background-color: red;
+}
