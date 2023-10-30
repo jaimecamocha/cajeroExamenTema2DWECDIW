@@ -8,6 +8,7 @@ function mostrarSaldo() {
     const cantSaldo = document.getElementById("cantSaldo");
     cantSaldo.textContent = `Su saldo actual es: ${saldo.toFixed(2)} €`;
 }
+
 // Depositar dinero
 function depositarDinero(){
     const deposito = document.getElementById("inputCantidad");
@@ -20,6 +21,7 @@ function depositarDinero(){
         mostrarSaldo();
         alert(`Se han depositado ${depositoCant.toFixed(2)} euros`);
     }
+    deposito.value = "";
 } 
 
 // Retirar dinero
@@ -34,6 +36,7 @@ function retirarDinero(){
         mostrarSaldo();
         alert(`Se han retirado ${retiroCant.toFixed(2)} euros`);       
     }
+    retiro.value = "";
 }
 
 // Transferir dinero
@@ -49,6 +52,7 @@ function transferirDinero(){
         mostrarSaldo();
         alert(`Se han transferido ${transferCant.toFixed(2)} euros a ${numCuenta}`);
     }
+    transfer.value ="";
 } 
  
 // Cambiar contraseña
