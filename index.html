@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/styleIndex.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <title>CAJERO AUTOMÁTICO</title>
 </head>
@@ -14,9 +14,9 @@
         <button type="button" onclick="iniciarSesion()" id="btnInicio">INICIAR SESIÓN</button>
     </div>
 
-    <div id="cajero">
+    <div id="cajero" style="display: none;">
         <h2>CAJERO AUTOMÁTICO</h2>
-        <p id="txtsaldo">Su saldo es de: <span id="cantSaldo"></span> euros</p>
+        <p id="txtsaldo"><span id="cantSaldo"></span></p>
         <input type="number" id="inputCantidad" placeholder="Introduzca cantidad">
         <button type="button" onclick="mostrarSaldo()" id="btnMostrar">Mostrar saldo</button>
         <button type="button" onclick="depositarDinero()" id="btnDepositar">Depositar</button>
